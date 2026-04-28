@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Whats Scan Plus & QR Tool</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f7f8fa;
+      color: #1a1a2e;
+      line-height: 1.7;
+    }
+    header {
+      background: #25D366;
+      color: #fff;
+      padding: 40px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 1.8rem; font-weight: 700; }
+    header p  { margin-top: 8px; font-size: 0.95rem; opacity: 0.9; }
+    main {
+      max-width: 800px;
+      margin: 32px auto;
+      padding: 0 20px 60px;
+    }
+    section {
+      background: #fff;
+      border-radius: 12px;
+      padding: 28px 32px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 4px rgba(0,0,0,.07);
+    }
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #25D366;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e8f8ee;
+    }
+    h3 { font-size: 1rem; font-weight: 600; margin: 18px 0 6px; }
+    p  { margin-bottom: 10px; font-size: 0.95rem; }
+    ul { padding-left: 22px; margin-bottom: 10px; }
+    li { font-size: 0.95rem; margin-bottom: 5px; }
+    a  { color: #25D366; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      margin-top: 10px;
+    }
+    th {
+      background: #f0faf4;
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 2px solid #d4edda;
+      font-weight: 600;
+    }
+    td {
+      padding: 9px 12px;
+      border-bottom: 1px solid #f0f0f0;
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #888;
+      padding: 24px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Privacy Policy</h1>
+  <p>Whats Scan Plus &amp; QR Tool &nbsp;·&nbsp; Last Updated: December 25, 2025</p>
+</header>
+
+<main>
+
+  <!-- 1. Introduction -->
+  <section>
+    <h2>1. Introduction</h2>
+    <p>
+      Welcome to <strong>Whats Scan Plus &amp; QR Tool</strong> ("App", "we", "our", or "us"),
+      developed by Ripplestacks. This Privacy Policy explains how we collect, use, disclose, and
+      protect your information when you use our mobile application available on Android and iOS.
+    </p>
+    <p>
+      By using the App, you agree to the practices described in this policy. If you do not agree,
+      please discontinue use of the App.
+    </p>
+  </section>
+
+  <!-- 2. Information We Collect -->
+  <section>
+    <h2>2. Information We Collect</h2>
+
+    <h3>2.1 Data Stored Locally on Your Device</h3>
+    <p>The following data is stored <strong>only on your device</strong> and is never transmitted to our servers:</p>
+    <ul>
+      <li><strong>QR Code &amp; Barcode History:</strong> Content, type, barcode format, and timestamp of codes you scan or create — stored in a local SQLite database.</li>
+      <li><strong>Created QR Codes:</strong> Category, label, value, colors, and optional logo of QR codes you generate — stored locally.</li>
+      <li><strong>App Lock PIN:</strong> If you enable the App Lock feature, your 4-digit PIN is stored in your device's secure keychain (iOS Keychain / Android Keystore via SecureStore). It is never transmitted externally.</li>
+      <li><strong>Scheduled Messages:</strong> Phone number, message content, and scheduled time for WhatsApp message reminders — stored locally and used only to trigger a local notification.</li>
+      <li><strong>User Preferences:</strong> Theme, beep/vibrate on scan, and other settings — stored locally via AsyncStorage.</li>
+    </ul>
+
+    <h3>2.2 Information Collected Automatically</h3>
+    <p>The following data is automatically collected through third-party SDKs (see Section 6 for full details):</p>
+    <ul>
+      <li><strong>Device Information:</strong> Device model, operating system version, and unique device identifiers.</li>
+      <li><strong>Usage Events:</strong> Screens viewed, features opened, QR codes scanned/created — sent to Firebase Analytics without any personally identifiable information.</li>
+      <li><strong>Ad Interaction Data:</strong> Impressions and clicks — collected by Google AdMob, subject to your consent choice.</li>
+      <li><strong>Purchase Status:</strong> Pseudonymous app user ID and purchase receipt — managed by RevenueCat to verify the Remove Ads entitlement.</li>
+    </ul>
+
+    <h3>2.3 Data Sent to External Services During Normal Use</h3>
+    <ul>
+      <li><strong>Country Detection (Direct WhatsApp Chat):</strong> When you open the "Direct WhatsApp Chat" feature, the App makes a request to <strong>ipinfo.io</strong> to automatically detect your country and pre-fill the dialling code. Your IP address is sent to ipinfo.io for this purpose. No other data is sent. See <a href="https://ipinfo.io/privacy-policy" target="_blank" rel="noopener">ipinfo.io/privacy-policy</a>.</li>
+      <li><strong>WhatsApp Web:</strong> Opens <em>web.whatsapp.com</em> inside an in-app browser. All WhatsApp session data is handled by WhatsApp's servers and governed by WhatsApp's privacy policy.</li>
+      <li><strong>ChatGPT (AI Assistant):</strong> Opens <em>chat.openai.com</em> inside an in-app browser. Any conversations you have are sent directly to OpenAI's servers and are governed by OpenAI's privacy policy. We do not intercept, read, or store your conversations.</li>
+    </ul>
+
+    <h3>2.4 Device Permissions Used</h3>
+    <table>
+      <thead>
+        <tr><th>Permission</th><th>Purpose</th><th>Shared Externally?</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Camera</strong></td>
+          <td>Scanning QR codes, barcodes, and documents. Processed on-device only.</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td><strong>Microphone</strong></td>
+          <td>Speech-to-text feature — captures voice input via the Web Speech API running in an in-app WebView.</td>
+          <td>Processed by device OS (Google / Apple)</td>
+        </tr>
+        <tr>
+          <td><strong>Photo Library / Media Storage</strong></td>
+          <td>Saving generated QR codes to your gallery; reading WhatsApp status files (Android only) for the Status Saver feature.</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td><strong>Internet</strong></td>
+          <td>Required for ads, WhatsApp Web, ChatGPT browser, country detection, and other online features.</td>
+          <td>Via third-party SDKs only</td>
+        </tr>
+        <tr>
+          <td><strong>Vibration</strong></td>
+          <td>Haptic feedback when a QR code is successfully scanned.</td>
+          <td>No</td>
+        </tr>
+        <tr>
+          <td><strong>Notifications</strong></td>
+          <td>Local reminders for scheduled WhatsApp messages (set explicitly by you).</td>
+          <td>No</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top:10px;">You can manage all permissions through your device settings at any time.</p>
+  </section>
+
+  <!-- 3. App Features & Data Practices -->
+  <section>
+    <h2>3. App Features &amp; Data Practices</h2>
+
+    <h3>QR Code Scanner &amp; Generator</h3>
+    <p>Camera data is processed entirely on-device. Scanned content and created QR codes are saved locally in a SQLite database. No QR data is sent to our servers.</p>
+
+    <h3>Status Saver (Android Only)</h3>
+    <p>This feature reads WhatsApp status media files from specific folders on your Android device's storage. Files are only copied to your gallery when you explicitly tap "Save". No status media is uploaded or transmitted externally.</p>
+
+    <h3>Direct WhatsApp Chat</h3>
+    <p>Lets you open a WhatsApp conversation with any number without saving it as a contact. The App makes a one-time request to ipinfo.io to detect your country. No message content is stored by us — the conversation happens entirely in WhatsApp.</p>
+
+    <h3>WhatsApp Web</h3>
+    <p>Opens the official WhatsApp Web interface inside an in-app browser. Your WhatsApp session, messages, and media are handled solely by WhatsApp. We do not access or intercept any of this data.</p>
+
+    <h3>Speech to Text</h3>
+    <p>Uses the Web Speech API inside an in-app WebView. Voice is processed by your device's OS speech engine (Google on Android, Apple on iOS). The resulting text is returned to the App and shown on-screen. We do not record or store your voice.</p>
+
+    <h3>AI Assistant (ChatGPT)</h3>
+    <p>Opens OpenAI's ChatGPT website (<em>chat.openai.com</em>) inside an in-app browser. This is a browser wrapper — we do not integrate OpenAI's API directly and have no access to your conversations. All data is governed by <a href="https://openai.com/privacy" target="_blank" rel="noopener">OpenAI's Privacy Policy</a>.</p>
+
+    <h3>Schedule Message</h3>
+    <p>Allows you to schedule a WhatsApp message for a future time. The phone number, message, and scheduled time are stored locally on your device and used only to trigger a local notification. At the scheduled time, a notification prompts you to open WhatsApp — the App does not send the message automatically.</p>
+
+    <h3>App Lock</h3>
+    <p>Protects the App with a 4-digit PIN stored in your device's secure keychain (iOS Keychain / Android Keystore). The PIN is never transmitted outside your device.</p>
+
+    <h3>Document Scanner</h3>
+    <p>Uses the camera to scan and digitize documents. Processed entirely on-device. No document images are uploaded or stored externally.</p>
+
+    <h3>Games, News &amp; Quiz</h3>
+    <p>These features open third-party websites (GameZop, Newszop, Quizzop) inside an in-app browser. We do not collect any data from these sessions. Data practices are governed by the respective third-party sites.</p>
+  </section>
+
+  <!-- 4. How We Use Your Information -->
+  <section>
+    <h2>4. How We Use Your Information</h2>
+    <p>The information collected is used to:</p>
+    <ul>
+      <li>Enable core features: QR scanning, generation, status saving, WhatsApp tools, and more</li>
+      <li>Display advertisements through third-party ad networks</li>
+      <li>Analyze anonymous usage patterns to improve App performance and features</li>
+      <li>Process in-app purchases (Remove Ads upgrade)</li>
+      <li>Send local scheduled message reminders you have explicitly set up</li>
+      <li>Ensure App security via the App Lock feature</li>
+      <li>Comply with legal obligations</li>
+    </ul>
+    <p>We do <strong>not</strong> sell your personal data to any third party.</p>
+  </section>
+
+  <!-- 5. Data Storage and Retention -->
+  <section>
+    <h2>5. Data Storage &amp; Retention</h2>
+    <ul>
+      <li><strong>SQLite Database:</strong> QR history stored locally; deletable from within the App at any time.</li>
+      <li><strong>AsyncStorage:</strong> App preferences stored locally; cleared on uninstall.</li>
+      <li><strong>SecureStore (Keychain/Keystore):</strong> App Lock PIN stored in device's secure enclave; not accessible to other apps.</li>
+    </ul>
+    <p>All locally stored data is permanently deleted when you uninstall the App.</p>
+    <p>Analytics data retained by Firebase follows Google's standard retention periods (up to 14 months). You can request deletion by contacting us.</p>
+  </section>
+
+  <!-- 6. Third-Party Services -->
+  <section>
+    <h2>6. Third-Party Services &amp; SDKs</h2>
+
+    <h3>6.1 Google AdMob (Advertising)</h3>
+    <p>Displays banner, interstitial, app-open, and native ads. May collect advertising ID and usage data.</p>
+    <ul>
+      <li>EEA/UK users: a UMP consent form is shown before ads load. Personalized ads only with your consent.</li>
+      <li>Ad content rated <strong>General Audience (G)</strong>.</li>
+      <li>Privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+    </ul>
+
+    <h3>6.2 GameZop, Newszop &amp; Quizzop (Web Content)</h3>
+    <p>The App provides access to Games (GameZop), News (Newszop), and Quiz (Quizzop) features by opening their respective websites inside an in-app browser — similar to how ChatGPT is accessed. We do not integrate their SDKs directly. Any data collected while you use these services is governed by their own privacy policies, not ours.</p>
+    <ul>
+      <li>GameZop privacy policy: <a href="https://www.gamezop.com/privacy-policy" target="_blank" rel="noopener">gamezop.com/privacy-policy</a></li>
+    </ul>
+
+    <h3>6.3 Firebase Analytics (Google)</h3>
+    <p>Collects anonymous usage events (screens viewed, features opened, QR counts). No personally identifiable information is included.</p>
+    <ul>
+      <li>Privacy policy: <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">firebase.google.com/support/privacy</a></li>
+    </ul>
+
+    <h3>6.4 RevenueCat (In-App Purchases)</h3>
+    <p>Manages the Remove Ads in-app purchase. Collects a pseudonymous app user ID and purchase receipt. All payment processing is handled by the App Store / Google Play.</p>
+    <ul>
+      <li>Privacy policy: <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a></li>
+    </ul>
+
+    <h3>6.5 OpenAI / ChatGPT (AI Assistant)</h3>
+    <p>The AI Assistant feature opens <em>chat.openai.com</em> in an in-app browser. We do not use OpenAI's API — your interactions go directly to OpenAI's website and are governed entirely by OpenAI's policies.</p>
+    <ul>
+      <li>Privacy policy: <a href="https://openai.com/privacy" target="_blank" rel="noopener">openai.com/privacy</a></li>
+    </ul>
+
+    <h3>6.6 ipinfo.io (Country Detection)</h3>
+    <p>Used once when you open the Direct WhatsApp Chat feature to auto-detect your country from your IP address. Only your IP is sent; no other data.</p>
+    <ul>
+      <li>Privacy policy: <a href="https://ipinfo.io/privacy-policy" target="_blank" rel="noopener">ipinfo.io/privacy-policy</a></li>
+    </ul>
+
+    <h3>6.7 WhatsApp</h3>
+    <p>WhatsApp Web and Direct Chat features interact with WhatsApp's services. We do not access, read, or store your WhatsApp messages or contacts.</p>
+    <ul>
+      <li>Privacy policy: <a href="https://www.whatsapp.com/legal/privacy-policy" target="_blank" rel="noopener">whatsapp.com/legal/privacy-policy</a></li>
+    </ul>
+  </section>
+
+  <!-- 7. Data Sharing -->
+  <section>
+    <h2>7. Data Sharing &amp; Disclosure</h2>
+    <p>We do not sell your personal information. Data may be shared only in the following situations:</p>
+    <ul>
+      <li><strong>Advertising Partners:</strong> Google AdMob and GameZop may receive device/usage data to serve ads based on your consent choice.</li>
+      <li><strong>Analytics:</strong> Firebase receives anonymous usage events to help us improve the App.</li>
+      <li><strong>Purchase Processing:</strong> RevenueCat receives purchase receipt data to verify entitlements.</li>
+      <li><strong>Legal Obligations:</strong> We may disclose data if required by law or legal process.</li>
+      <li><strong>Business Transfers:</strong> In a merger, acquisition, or asset sale, user information may transfer as part of the transaction. We will notify you before such a transfer takes effect.</li>
+    </ul>
+  </section>
+
+  <!-- 8. Children -->
+  <section>
+    <h2>8. Children's Privacy</h2>
+    <p>The App is not intended for children under the age of 13 (or 16 in the EEA). We do not knowingly collect personal information from children. If you believe a child has provided information through the App, contact us immediately and we will delete it promptly.</p>
+    <p>Ad content is restricted to General Audience (G) rating with child-directed treatment disabled.</p>
+  </section>
+
+  <!-- 9. Your Rights and Choices -->
+  <section>
+    <h2>9. Your Rights &amp; Choices</h2>
+
+    <h3>All Users</h3>
+    <ul>
+      <li>Delete individual QR entries or all history within the App settings</li>
+      <li>Disable or change the App Lock PIN from the App settings</li>
+      <li>Revoke any device permission at any time via device settings (some features will be limited)</li>
+    </ul>
+
+    <h3>Opt Out of Personalized Ads</h3>
+    <ul>
+      <li><strong>Android:</strong> Settings &rarr; Google &rarr; Ads &rarr; Opt out of Ads Personalization</li>
+      <li><strong>iOS:</strong> Settings &rarr; Privacy &rarr; Apple Advertising &rarr; Limit Ad Tracking</li>
+      <li>You may also withdraw ad consent at any time through the consent settings in the App.</li>
+    </ul>
+
+    <h3>EEA / UK Users (GDPR)</h3>
+    <ul>
+      <li>Access, correct, or request deletion of your personal data</li>
+      <li>Object to or restrict processing</li>
+      <li>Withdraw consent for personalized ads at any time</li>
+      <li>Lodge a complaint with your local data protection authority</li>
+    </ul>
+
+    <h3>California Residents (CCPA)</h3>
+    <p>You have the right to know what personal information is collected, request deletion, and opt out of its sale. We do not sell personal information. Contact us at the address below to exercise your rights.</p>
+  </section>
+
+  <!-- 10. Security -->
+  <section>
+    <h2>10. Security</h2>
+    <p>We apply reasonable technical and organizational security measures. The App Lock PIN is stored in the device's hardware-backed secure enclave. Most user data never leaves your device.</p>
+    <p>No electronic storage or transmission method is completely secure. We cannot guarantee absolute security but will notify users of any breaches as required by applicable law.</p>
+  </section>
+
+  <!-- 11. International Data Transfers -->
+  <section>
+    <h2>11. International Data Transfers</h2>
+    <p>Data processed by third-party services (Google, RevenueCat, GameZop, OpenAI, ipinfo.io) may be transferred to and stored in countries outside your country of residence, where data protection laws may differ. We ensure all third-party partners we use maintain adequate data protection standards.</p>
+  </section>
+
+  <!-- 12. Changes -->
+  <section>
+    <h2>12. Changes to This Policy</h2>
+    <p>This Privacy Policy may be updated periodically. Any changes will be posted on this page with an updated "Last Updated" date. Continued use of the App after changes are posted constitutes acceptance of the revised policy.</p>
+  </section>
+
+  <!-- 13. Contact -->
+  <section>
+    <h2>13. Contact Us</h2>
+    <p>If you have questions, concerns, or data requests regarding this Privacy Policy, contact us:</p>
+    <ul>
+      <li><strong>Developer:</strong> Ripplestacks</li>
+      <li><strong>Email:</strong> <a href="mailto:vaghani98@gmail.com">vaghani98@gmail.com</a></li>
+      <li><strong>Address:</strong> 217, Valamnagar Society, Near Akar Sports Club, Simada Gam, Surat, Gujarat, India &ndash; 395006</li>
+    </ul>
+    <p>We aim to respond to all privacy-related inquiries within 30 days.</p>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2025 Ripplestacks &nbsp;·&nbsp; Whats Scan Plus &amp; QR Tool &nbsp;·&nbsp; All rights reserved
+</footer>
+
+</body>
+</html>
